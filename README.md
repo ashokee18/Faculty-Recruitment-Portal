@@ -6,17 +6,17 @@ This is a Node.js application that connects to a MySQL database. It uses Docker 
 
 1. Clone the repository:
 
-git clone https://github.com/ashokee18/Faculty-Recruitment-Portal.git
+   git clone https://github.com/ashokee18/Faculty-Recruitment-Portal.git
 
 
 2. Build and start the containers: docker-compose up -d
 
-This will build the Node.js application image and start the MySQL and Node.js containers in detached mode.
+   This will build the Node.js application image and start the MySQL and Node.js containers in detached mode.
 
 
 3. Check the logs to ensure both containers are running: docker-compose logs -f
 
-You should see the MySQL container initializing and the Node.js application starting up.
+  You should see the MySQL container initializing and the Node.js application starting up.
 
 
 4. The Node.js application will be available at `http://localhost:8000`.
